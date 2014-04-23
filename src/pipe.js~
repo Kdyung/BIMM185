@@ -1,0 +1,12 @@
+//This is a sample java script for running the pipeline
+
+//http://stackoverflow.com/questions/13991007/execute-external-program-in-java
+import java.applet.Applet; // Provides the Applet class.
+import java.awt.*;         // Provides Button class, etc.
+import java.awt.event.*;   // Provides ActionEvent, ActionListener 
+
+
+public class BagApplet extends Applet{
+
+
+

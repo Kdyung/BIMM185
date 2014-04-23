@@ -1,0 +1,17 @@
+1NHPqAZ8Tag3AjLwhIwZDuaH*khK9ym2xsoljea422STWrv*NUclv4IV*EUl1Kj2d.Ml9a4XFkElIrW5tUGvZErYUDzkWJH6F6vowrOLJInoqtx06DLUep*CQfvASl3Ok5TsGh7a2X1Y4dBmMzbEuZFygP9wiVJ8.rjcWRNKIHHIKNRWcjr.8JViw9PgyFZuEbzMmBd4Y1X2a7hGsT5kO3lSAvfQC*peULD60xtqonnoqtx06DLUep*CQfvASl3Pm8XwKlBe6b5fU2tSM.c.e2kuAwi
+ActionStickman
+
+
+DAVID:
+Paste list of gene names. Select identifier (gene symbol or 'idk'). Ask what gene networks are these emphasized in. (Given 300 genes, see if they are in a similar network given an organism)
+Select Species (done): converts to its own computational identifier and ask for what networks you want to discover. See disease and omen genes. (deselect omen) 
+(click functional annotation clusters)
+See how many clusters it found. They also give a false discovery rate. (Ex: under 10% [normal]) It helps to see if a drug is going to kill someone (want 0%). 
+Functional Annotation Clustering (blue titled table with list of %s and p-values)
+Now can take dataset and run through cytoscape.
+
+Bader plugin
+
+DAVID API:
+http://david.abcc.ncifcrf.gov/content.jsp?file=DAVID_API.html#input_list
+
