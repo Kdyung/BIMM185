@@ -1,0 +1,44 @@
+<!--http://stackoverflow.com/questions/5239886/submit-button-on-html-to-output-result-on-same-page-->
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+        <meta charset=”utf-8”>
+        <title>Sample HTML5 Webpage</title>
+        <meta name=”description” content=”A webpage that is butchered copy-pasted source code”>
+        <meta name=”Author: Kyra Yung” content=”Enrichment Mapping”>
+
+
+        
+</head>
+<body>
+        <div id=”wrapper”>
+                <header class=”main_headline”>
+                        <h1>Web-Based Enrichment Mapping </h1>
+                </header>
+<!--                <applet code="src/pipe.class" width=700 height="400"></applet> -->
+				<canvas id="myCanvas" width="200" height="100" style="border:1px solid #c3c3c3;">
+				Your browser does not support the HTML5 canvas tag.
+				</canvas>
+				<script>
+				var c=document.getElementById("myCanvas");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle="#FF0000";
+				ctx.fillRect(0,0,150,75);
+				</script>
+				<table>
+				<tr><td>
+				Number Genes:<td><input type="number" name="numgene" />
+				<tr><td>
+				Number of Experiments:<td><input type="number" name="numexp" />
+				<tr><td>
+				</table>
+				<br>
+				<input type="submit" />
+				<p> Your values are <span id = "in_values"></span></p>
+				ID Number: <input
+type="text" name="idnumber" id="idnumber" /><br/>
+<p>Your
+email address is
+<span id="emailid"></span>@email.com</p>
+</body>
+</html>
