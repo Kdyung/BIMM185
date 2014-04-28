@@ -4,6 +4,7 @@
 
 //Writing a simple java applet: http://www.cs.colorado.edu/~main/applets/Simple.html
 
+<<<<<<< HEAD
 // Simple adding applet: http://www.roseindia.net/answers/viewqa/Java-Beginners/18504-Applet-for-add-two-numbers.html
 
 
@@ -37,3 +38,18 @@ public void paint(Graphics g) {
 }
 
 }
+=======
+import java.applet.Applet; // Provides the Applet class.
+import java.awt.*;         // Provides Button class, etc.
+import java.awt.event.*;   // Provides ActionEvent, ActionListener 
+
+
+public class pipe extends Applet{
+    public void init( )
+    {
+        System.out.println("printed Java");
+    }
+}
+
+
+>>>>>>> c4435925bca594dcd8d0ca5af4ab81fe1a156542
